@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  list-style: none;
+}
+
+:root {
+  --prymary: #fb4;
+  --body: #f7f7f7;
+  --body2: #fff;
+  --text-menu: #333;
+  --text-body: #333;
+}
+:root .dark-theme {
+  --prymary: #0d47a1;
+  --body: #333;
+  --body2: #222;
+  --text-menu: #f7f7f7;
+  --text-body: #f7f7f7;
+}
+
+body {
+  background-color: var(--body2);
+}
